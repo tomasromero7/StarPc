@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-image: url(../Img/pexels-pixabay-373543.jpg);
+}
+
+footer {
+    background: gray;
+}
+
+/* index */
+
+.grid-area {
+    display: grid;
+    gap: 5px;
+    height: 100vh;
+    grid-template-areas:
+    "info1 info1 info1"
+    "draconic draconic draconic"
+    "info2 info3 info4"
+    "teclados mouses auriculares"
+    "footer footer footer"
+    
+}
+
+main, .draconic, .teclados,
+.auriculares, .mouses, .titulo, section, .info3, .info4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    grid-area: info1;
+}
+
+.draconic {
+    grid-area: draconic;
+}
+
+.titulo {
+    background: gray;
+    color: white;
+}
+
+section {
+    grid-area: info2;
+}
+
+.teclados {
+    grid-area: teclados;
+} 
+
+.info3 {
+    grid-area: info3;
+}
+
+.mouses {
+    grid-area: mouses;
+}
+
+.info4 {
+    grid-area: info4;
+}
+
+.auriculares {
+    grid-area: auriculares;
+}
+
+footer {
+    grid-area: footer;
+}
+
+h4.teclados {
+    background-color: gray;
+    color: white;
+}
+
+h4.auris {
+    background-color: gray;
+    color: white;
+}
+
+h4.mouses {
+    background-color: gray;
+    color: white;
+}
+
+.parrafo {
+    color: white;
+
+}
+
+/* responsive */
+
+@media (min-width: 400px) and (max-width: 768px) {
+    
+    .grid-area {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .draconic {
+        width: 100%;
+    }
+}
+
+
+/* termina el index */
+
+
+/* pagina de teclados */
+
+
+
+.grid-area2 {
+    display: grid;
+    gap: 5px;
+    height: 100vh;
+    grid-template-areas:
+    "titulo2 titulo2 titulo2"
+    "redragon redragon redragon"
+    "tecladoRedragon tecladoRedragon tecladoRedragon"
+    "carrito carrito carrito"
+    "logitech logitech logitech"
+    "tecladoLogitech tecladoLogitech tecladoLogitech"
+    "carrito2 carrito2 carrito2"
+    "hyperx hyperx hyperx"
+    "tecladoHyperx tecladoHyperx tecladoHyperx"
+    "carrito3 carrito3 carrito3"
+    "footer footer footer"
+}
+
+.tecladosGaming, .redragon, .tecladoRedragon,.logitech, .hyperx, .footer, .info5, .tecladoLogitech, .info6, .tecladoHyperx, .tecladoO, .carrito, .carrito2, .carrito3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tecladosGaming {
+    grid-area: titulo2;
+}
+
+.titulo2 {
+    background: gray;
+    color: white;
+}
+
+.tecladoO {
+    grid-area: redragon;
+}
+
+.redragon {
+    background: gray;
+    color: white;
+}
+
+.tecladoRedragon {
+    grid-area: tecladoRedragon;
+}
+
+.carrito {
+    grid-area: carrito;
+}
+
+.carritoC {
+    background: gray;
+}
+
+.carrito2 {
+    grid-area: carrito2;
+}
+
+.carritoC2 {
+    background: gray;
+}
+
+.carrito3 {
+    grid-area: carrito3;
+}
+
+.carritoC3 {
+    background: gray;
+}
+
+.info5 {
+    grid-area: logitech;
+}
+
+.logitech {
+    background: gray;
+    color: white;
+}
+
+.tecladoLogitech {
+    grid-area: tecladoLogitech;
+}
+
+.info6 {
+    grid-area: hyperx;
+}
+
+.hyperx {
+    background: gray;
+    color: white;
+}
+
+.tecladoHyperx {
+    grid-area: tecladoHyperx;
+}
+
+
+@media (min-width: 400px) and (max-width: 768px) {
+    
+    .grid-area2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+}
+
+/* termina pagina de teclados */
+
+
+
