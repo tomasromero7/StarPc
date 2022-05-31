@@ -235,3 +235,135 @@ h4.mouses {
 
 
 
+/* pagina de mouse */
+
+
+.grid-area3 {
+    display: grid;
+    gap: 5px;
+    height: 100vh;
+    grid-template-areas:
+    "titulo2 titulo2 titulo2"
+    "redragon redragon redragon"
+    "tecladoRedragon tecladoRedragon tecladoRedragon"
+    "carrito carrito carrito"
+    "logitech logitech logitech"
+    "tecladoLogitech tecladoLogitech tecladoLogitech"
+    "carrito2 carrito2 carrito2"
+    "hyperx hyperx hyperx"
+    "tecladoHyperx tecladoHyperx tecladoHyperx"
+    "carrito3 carrito3 carrito3"
+    "footer footer footer"
+}
+
+.mousesGaming, .mouseredragon, .mouseRedragon,.mouselogitech, .mousehyperx, .footer, 
+.info7, .mouseLogitech, .info8, .mouseHyperx, .mouseE, .carrito4, .carrito5, .carrito6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mousesGaming {
+    grid-area: titulo2;
+}
+
+.titulo3 {
+    background: gray;
+    color: white;
+}
+
+.mouseE {
+    grid-area: redragon;
+}
+
+.mouseredragon {
+    background: gray;
+    color: white;
+}
+
+.mouseRedragon {
+    grid-area: tecladoRedragon;
+}
+
+.carrito4 {
+    grid-area: carrito;
+}
+
+.carritoC4 {
+    background: gray;
+}
+
+.carrito5 {
+    grid-area: carrito2;
+}
+
+.carritoC5 {
+    background: gray;
+}
+
+.carrito6 {
+    grid-area: carrito3;
+}
+
+.carritoC6 {
+    background: gray;
+}
+
+.info7 {
+    grid-area: logitech;
+}
+
+.mouselogitech {
+    background: gray;
+    color: white;
+}
+
+.mouseLogitech {
+    grid-area: tecladoLogitech;
+}
+
+.info8 {
+    grid-area: hyperx;
+}
+
+.mousehyperx {
+    background: gray;
+    color: white;
+}
+
+.mouseHyperx {
+    grid-area: tecladoHyperx;
+}
+
+.redragonM {
+    background: gray;
+    color: white;
+
+}
+
+@media (min-width: 400px) and (max-width: 768px) {
+    
+    .grid-area3 {
+        display: flex;
+        flex-direction: column;
+        width: 100%
+    }
+
+
+    .mouse1 {
+        width: 100%;
+    }
+
+    .mouse2 {
+        width: 100%;
+    }
+
+    .mouse3 {
+        width: 100%;
+    }
+
+}
+
+
+
+
