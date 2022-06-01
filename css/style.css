@@ -31,11 +31,13 @@ footer {
 }
 
 main, .draconic, .teclados,
-.auriculares, .mouses, .titulo, section, .info3, .info4 {
+.auriculares, .mouses, .titulo, .section, .info3, .info4, .teclado {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+
 
 main {
     grid-area: info1;
@@ -50,13 +52,13 @@ main {
     color: white;
 }
 
-section {
+.section {
     grid-area: info2;
 }
 
-.teclados {
+.teclado {
     grid-area: teclados;
-} 
+}
 
 .info3 {
     grid-area: info3;
