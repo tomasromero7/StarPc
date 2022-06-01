@@ -31,7 +31,7 @@ footer {
 }
 
 main, .draconic, .teclados,
-.auriculares, .mouses, .titulo, .section, .info3, .info4, .teclado {
+.auriculares, .mouses, .titulo, .animaciones, .info3, .info4, .teclado {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,7 +52,7 @@ main {
     color: white;
 }
 
-.section {
+.animaciones {
     grid-area: info2;
 }
 
