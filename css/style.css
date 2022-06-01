@@ -491,6 +491,10 @@ h4.mouses {
 
 /* termina pagina de auris */
 
+
+
+/* donde encontrarnos */
+
 .grid-area5 {
     display: grid;
     gap: 5px;
@@ -545,6 +549,27 @@ footer {
     }
 
 }
+
+/* termina pagina donde encontrarnos */
+
+/* contacto */
+
+
+.grid-area6 {
+    display: grid;
+    gap: 5px;
+    height: 100vh;
+    grid-template-areas:
+    "titulo titulo titulo"
+    "responsive responsive2 responsive3"
+    "locall locall locall"
+    "fotolocal fotolocal fotolocal"
+    "footer footer footer"
+}
+
+
+
+
 
 
 
