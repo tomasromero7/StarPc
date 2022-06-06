@@ -30,7 +30,7 @@ footer {
     
 }
 
-main, .draconic, .teclados,
+main, .draconic, .teclados, .info2,
 .auriculares, .mouses, .titulo, .animaciones, .info3, .info4, .teclado {
     display: flex;
     justify-content: center;
@@ -102,7 +102,7 @@ h4.mouses {
 
 /* responsive */
 
-@media (min-width: 400px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 1024px) {
     
     .grid-area {
         display: flex;
