@@ -223,7 +223,7 @@ h4.mouses {
 }
 
 
-@media (min-width: 400px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 1024px) {
     
     .grid-area2 {
         display: flex;
@@ -343,7 +343,7 @@ h4.mouses {
 
 }
 
-@media (min-width: 400px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 1024px) {
     
     .grid-area3 {
         display: flex;
@@ -473,7 +473,7 @@ h4.mouses {
 
 }
 
-@media (min-width: 400px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 1024px) {
     
     .grid-area4 {
         display: flex;
@@ -495,8 +495,7 @@ h4.mouses {
 
 
 
-/* donde encontrarnos */
-
+/* ubicacion */
 .grid-area5 {
     display: grid;
     gap: 5px;
@@ -542,7 +541,7 @@ footer {
     color: white;
 }
 
-@media (min-width: 400px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 1024px) {
     
     .grid-area5 {
         display: flex;
@@ -552,7 +551,7 @@ footer {
 
 }
 
-/* termina pagina donde encontrarnos */
+/* ubicacion */
 
 /* contacto */
 
