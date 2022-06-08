@@ -1,0 +1,61 @@
+
+
+div.titulo0 {
+    .titulo00 {
+        background: $colorPrincipal;
+        color: $colorSecundario;
+    }
+}
+
+div.local {
+    .locall {
+        background: $colorPrincipal;
+        color: $colorSecundario;
+    }
+}
+
+.grid-area5 {
+    display: grid;
+    gap: 5px;
+    height: 100vh;
+    grid-template-areas:
+    "titulo titulo titulo"
+    "responsive responsive2 responsive3"
+    "locall locall locall"
+    "fotolocal fotolocal fotolocal"
+    "footer footer footer"
+    
+}
+
+.titulo0, .local, .fotolocal {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.titulo0 {
+    grid-area: titulo;
+}
+
+.local {
+    grid-area: locall;
+}
+
+.fotolocal {
+    grid-area: fotolocal;
+}
+
+footer {
+    grid-area: footer;
+}
+
+
+@media (min-width: 0px) and (max-width: 1024px) {
+    
+    .grid-area5 {
+        display: flex;
+        flex-direction: column;
+        width: 100%
+    }
+
+}

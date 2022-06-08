@@ -1,0 +1,69 @@
+div.titulo0 .titulo00 {
+  background: gray;
+  color: white;
+}
+
+div.local .locall {
+  background: gray;
+  color: white;
+}
+
+.grid-area5 {
+  display: -ms-grid;
+  display: grid;
+  gap: 5px;
+  height: 100vh;
+      grid-template-areas: "titulo titulo titulo" "responsive responsive2 responsive3" "locall locall locall" "fotolocal fotolocal fotolocal" "footer footer footer";
+}
+
+.titulo0, .local, .fotolocal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+}
+
+.titulo0 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: titulo;
+}
+
+.local {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: locall;
+}
+
+.fotolocal {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: fotolocal;
+}
+
+footer {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: footer;
+}
+
+@media (min-width: 0px) and (max-width: 1024px) {
+  .grid-area5 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
