@@ -1,16 +1,14 @@
-
-
 div.titulo0 {
     .titulo00 {
-        background: $colorPrincipal;
-        color: $colorSecundario;
+        background: map-get($colores, principal);
+        color: map-get($colores, secundario);
     }
 }
 
 div.local {
     .locall {
-        background: $colorPrincipal;
-        color: $colorSecundario;
+        background: map-get($colores, principal);
+        color: map-get($colores, secundario);
     }
 }
 
